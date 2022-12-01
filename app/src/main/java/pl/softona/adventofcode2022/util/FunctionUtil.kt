@@ -5,7 +5,7 @@ import java.lang.reflect.Method
 object FunctionUtil {
 
     fun getClassByDay(day: Int): Class<*> {
-        val fullClassName = "pl.softona.adventofcode2022.tasks.Day$day"
+        val fullClassName = "pl.softona.adventofcode2022.task.Day$day"
         return Class.forName(fullClassName)
     }
 

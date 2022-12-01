@@ -10,7 +10,7 @@ object ApiUtil {
 
     suspend fun getInputFromApi(day: Int): List<String> {
         val client = HttpClient()
-        val response: HttpStatement = client.get("https://adventofcode.com/2021/day/$day/input") {
+        val response: HttpStatement = client.get("https://adventofcode.com/2022/day/$day/input") {
             headers {
                 append(
                     HttpHeaders.Cookie,
