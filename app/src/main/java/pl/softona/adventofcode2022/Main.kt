@@ -9,8 +9,8 @@ import pl.softona.adventofcode2022.util.SolutionUtil
 
 object Main {
 
-    private const val DAY = 2
-    private const val TASK_NUMBER = 2
+    private const val DAY = 3
+    private const val TASK_NUMBER = 1
 
     @RequiresApi(Build.VERSION_CODES.N)
     @JvmStatic
